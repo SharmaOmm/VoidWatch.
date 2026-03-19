@@ -119,7 +119,7 @@ curl -X POST http://localhost:8000/predict \
   -d @sample_input.json
 ```
 
-Or open http://localhost:8000/docs for the interactive testing interface.
+Once the API is running, open http://localhost:8000/docs in your browser for the interactive testing interface.
 
 ---
 
