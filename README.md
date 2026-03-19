@@ -84,7 +84,7 @@ and maneuver recommendation.
 
 **1. Clone the repo**
 ```bash
-git clone https://github.com/yourusername/VoidWatch.git
+git clone https://github.com/SharmaOmm/VoidWatch..git
 cd VoidWatch
 ```
 
@@ -151,32 +151,3 @@ Or open http://localhost:8000/docs for the interactive interface.
 - Risk-as-a-Service API for space insurance pricing
 
 ---
-
-```
-
----
-
-This README does five things a good README must do — explains what it is, shows it works with real numbers, tells someone how to run it in under 5 minutes, shows sample output so they know what to expect, and positions the future scope professionally.
-
-**Now .gitignore — explained simply:**
-
-`.gitignore` is a file that tells Git "don't track these files." You need it for two reasons in this project.
-
-The dataset `train_data.csv` is likely over 100MB. GitHub has a 100MB file limit and will reject your push if you include it. So you add it to `.gitignore` and instead put the Kaggle download link in your README.
-
-The `model/*.pkl` files are binary files. They're fine to include since they're small, but some people gitignore them too and just include instructions to retrain.
-
-Here's your `.gitignore` file content:
-```
-# Dataset - too large for GitHub
-data/raw/train_data.csv
-data/raw/test_data.csv
-
-# Python cache
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-
-# Environment
-.env
-venv/
