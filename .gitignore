@@ -1,0 +1,18 @@
+# Dataset - too large for GitHub
+data/raw/train_data.csv
+data/raw/test_data.csv
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
+
+# Mac system files
+.DS_Store
+
+# Model files (optional - comment out if you want to include them)
+# model/*.pkl
