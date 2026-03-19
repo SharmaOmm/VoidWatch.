@@ -84,8 +84,8 @@ and maneuver recommendation.
 
 - Trained on 162,634 real ESA conjunction events
 - Handles class imbalance with balanced class weighting
-- Explainable output — top risk factors per prediction
-- Actionable recommendations — maneuver window and urgency level
+- Explainable output, top risk factors per prediction
+- Actionable recommendations, maneuver window and urgency level
 - REST API ready for frontend integration
 
 ---
